@@ -1,3 +1,45 @@
+/* Centraliza tudo e arruma o fundo */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #f9f9f9;
+}
+
 h1 {
-    color: rebeccapurple;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* --- ESTILO DOS BOTÕES --- */
+.botao {
+    display: inline-block; /* Permite que fiquem lado a lado */
+    padding: 15px 30px; /* Tamanho do botão (gordurinha) */
+    margin: 20px; /* <--- O IMPORTANTE: Espaço em volta de cada botão */
+    text-decoration: none; /* Tira o sublinhado */
+    color: white; /* Cor do texto */
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+    border: 2px solid #ccc; /* Uma bordinha suave */
+}
+
+/* Cores específicas */
+.corinthians {
+    background-color: black;
+}
+
+.palmeiras {
+    background-color: green;
+}
+
+/* Efeito quando passa o mouse (opcional, mas fica bom) */
+.botao:hover {
+    opacity: 0.8; /* Fica um pouco transparente */
+    cursor: pointer;
 }
